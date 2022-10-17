@@ -1,0 +1,10 @@
+# Set coarsing dimensions
+coarse: 
+    x : 10
+    y : 10
+    times : [1,2,5, 10, 20, 40]
+
+fit:
+  func : :gaussian
+  mobilmean : 15
+  coarse_time : 5 
